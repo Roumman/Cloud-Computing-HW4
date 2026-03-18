@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: red;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #1414bdad;
+}
+
+h1 {
+    font-size: 2em; /* 32px */
+}
+
+h2 {
+    font-size: 1.5em; /* 24px */
+}
+
+h3 {
+    font-size: 1.17em; /* 18.72px */
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

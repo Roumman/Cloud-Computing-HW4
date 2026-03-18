@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="/static/styles.css">
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+<h1>Type your wikipedia page address here:</h1>
+<form action="{% url 'main:similar' %}" method="get">
+    <input size="70" style= "height: 30px;" type="text" name="url" />
+    <select style= "height: 30px; width: 70px;" name="cnt">
+        <option selected value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+   </select>
+</form>
